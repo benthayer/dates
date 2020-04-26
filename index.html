@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dates</title><script>
+</script>
+
+</head>
+<body>
+<h1>Guess the date</h1>
+<p>{{ .Date }}</p>
+<p id="dow" style="visibility: hidden">{{ .Weekday }}</p>
+	<button onClick="location.reload();">Next question</button>
+	<button onClick="document.getElementById('dow').style.visibility = 'visible';">Show answer</button>
+</body>
+</html>
